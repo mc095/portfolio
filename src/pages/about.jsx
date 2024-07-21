@@ -89,7 +89,7 @@ export default function About() {
           <div className="lg:pl-20">
             <ul role="list">
               <SocialLink
-                href="https://github.com/gc097"
+                href="https://github.com/mc095"
                 icon={GitHubIcon}
                 className="mt-4"
               >
