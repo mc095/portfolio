@@ -223,7 +223,7 @@ export default function Home({ articles }) {
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://github.com/gc097"
+              href="https://github.com/mc095"
               aria-label="Follow on GitHub"
               target="_blank"
               icon={GitHubIcon}
