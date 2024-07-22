@@ -205,7 +205,7 @@ export default function Home({ articles }) {
             I&apos;m Ganesh, a Computer Engineer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Driven by a fervent passion for technology, I&apos;m a self taught Web developer. Currently, I&apos;m a Computer Science Major at{' '}
+            Driven by a fervent passion for technology, I&apos;m a self taught Generalist developer. Currently, I&apos;m a Computer Science Major at{' '}
             <a
               href="https://www.srivasaviengg.ac.in/"
               className="font-bold text-zinc-500 hover:text-zinc-600 dark:text-zinc-400 dark:hover:text-zinc-300"
