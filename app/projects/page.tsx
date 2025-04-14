@@ -54,7 +54,7 @@ export default function Projects() {
                 </video>
               </div>
               <p className="mt-8 text-lg text-zinc-400">
-                i developed a chatbot to support mental health using <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">huggingface</a> and <a href="https://docs.chainlit.io" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">chainlit</a>. it provided users with accessible emotional support and resources.
+                developed a chatbot to support mental health using <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">huggingface</a> and <a href="https://docs.chainlit.io" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">chainlit</a>. it provided users with accessible emotional support and resources.
               </p>
             </div>
 
@@ -74,7 +74,7 @@ export default function Projects() {
                 </video>
               </div>
               <p className="mt-8 text-lg text-zinc-400">
-                i created a platform for hosting coding contests using <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">nextjs</a> and <a href="https://www.typescriptlang.org" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">typescript</a>. it engaged developers and fostered competitive programming skills.
+                created a platform for hosting coding contests using <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">nextjs</a> and <a href="https://www.typescriptlang.org" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">typescript</a>. it engaged developers and fostered competitive programming skills.
               </p>
             </div>
 
@@ -94,7 +94,7 @@ export default function Projects() {
                 </video>
               </div>
               <p className="mt-8 text-lg text-zinc-400">
-                i created a platform for hosting coding contests using the <a href="https://expressjs.com" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">mern stack</a>. it engaged developers and fostered competitive programming skills.
+                created a platform for hosting coding contests using the <a href="https://expressjs.com" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">mern stack</a>. it engaged developers and fostered competitive programming skills.
               </p>
             </div>
 
