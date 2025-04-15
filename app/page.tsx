@@ -56,7 +56,7 @@ export default function Home() {
               <span className="absolute inset-x-0 -bottom-px h-px bg-accent transform scale-x-0 group-hover:scale-x-100 transition-transform"></span>
             </Link>
             <Link
-              href="mailto:your.email@example.com"
+              href="mailto:ganeshvathumilli@gmail.com"
               className="text-accent/90 hover:text-accent transition-colors relative group"
             >
               <span className="relative z-10">email</span>
