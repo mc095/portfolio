@@ -94,7 +94,7 @@ export default function Projects() {
                 </video>
               </div>
               <p className="mt-8 text-lg text-zinc-400">
-                created a platform for streamlining job searching using the <a href="https://expressjs.com" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">mern stack</a>. it engaged job seekers and fostered job searching for young talent.
+                created a platform for streamlining job search using the <a href="https://expressjs.com" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">mern stack</a>. it engaged job seekers and fostered job searching for young talent.
               </p>
             </div>
 
