@@ -41,7 +41,7 @@ export default function Projects() {
             <div className="group relative p-4 -m-4 rounded-xl transition-colors hover:bg-accent/5">
               <h2 className="text-2xl font-semibold tracking-tight mb-8">
                 <a href="https://ashhealth07.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-white">
-                  kawaii chatbot
+                  <u>kawaii chatbot</u>
                 </a>
               </h2>
               <div className="mt-4">
@@ -61,7 +61,7 @@ export default function Projects() {
             <div className="group relative p-4 -m-4 rounded-xl transition-colors hover:bg-accent/5">
               <h2 className="text-2xl font-semibold tracking-tight mb-8">
                 <a href="https://github.com/mc095/contest-platform" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-white">
-                  coding contest platform
+                  <u>coding contest platform</u>
                 </a>
               </h2>
               <div className="mt-4">
@@ -81,7 +81,7 @@ export default function Projects() {
             <div className="group relative p-4 -m-4 rounded-xl transition-colors hover:bg-accent/5">
               <h2 className="text-2xl font-semibold tracking-tight mb-8">
                 <a href="https://mern-app-job-portal.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-white">
-                  job portal
+                  <u>job portal</u>
                 </a>
               </h2>
               <div className="mt-4">
@@ -101,7 +101,7 @@ export default function Projects() {
             <div className="group relative p-4 -m-4 rounded-xl transition-colors hover:bg-accent/5">
               <h2 className="text-2xl font-semibold tracking-tight mb-8">
                 <a href="https://ganesh97.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-white">
-                  employee management system
+                  <u>employee management system</u>
                 </a>
               </h2>
               <div className="mt-4">
