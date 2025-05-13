@@ -6,15 +6,14 @@ import VideoBackground from "./components/VideoBackground";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Ganesh",
+export const metadata: Metadata = {  title: "Ganesh",
   description: "my work and experience",
   openGraph: {
     title: "Ganesh",
     description: "my work and experience",
     images: [
       {
-        url: '/og/opengraph.jpg',
+        url: 'https://ganeshvath.netlify.app/opengraph.jpg',
         width: 1200,
         height: 630,
         alt: 'Portfolio Open Graph Image',
@@ -25,7 +24,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Ganesh',
     description: 'my work and experience',
-    images: ['/og/opengraph.jpg'],
+    images: ['https://ganeshvath.netlify.app/opengraph.jpg'],
   },
 };
 
