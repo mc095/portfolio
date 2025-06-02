@@ -10,7 +10,7 @@ export default function AudioPlayer() {
   // Initialize audio on client side only
   useEffect(() => {
     setIsClient(true);
-    const audioInstance = new Audio('/audio/background-music.mp3');
+    const audioInstance = new Audio('/audio/background-music-3.mp3');
     audioInstance.loop = true;
     audioInstance.volume = 0.4;
     setAudio(audioInstance);
