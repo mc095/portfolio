@@ -114,7 +114,7 @@ export default function Projects() {
               </video>
             </div>
             <p className="mt-8 text-lg text-zinc-400">
-              created a learning system for students using <a href="https://www.djangoproject.com" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">django</a> framework. it streamlined students learning through quick access to content.
+              created a learning management system for students using <a href="https://www.djangoproject.com" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">django</a> framework. it streamlined students learning through quick access to content.
             </p>
           </div>
         </div>          <div className="mt-16 text-center">
