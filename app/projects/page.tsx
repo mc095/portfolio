@@ -38,6 +38,50 @@ export default function Projects() {
           my projects
         </h1>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+          {/* WiChain - Decentralized LAN Chat */}
+          <div className="group relative p-4 -m-4 rounded-xl transition-colors hover:bg-accent/5">
+            <h2 className="text-2xl font-semibold tracking-tight mb-8">
+              <a href="https://wichain.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-white">
+                <u>decentralized LAN chat</u>
+              </a>
+            </h2>
+            <div className="mt-4">
+              <video
+                className="w-full aspect-video mx-auto rounded-lg shadow-lg"
+                controls
+                src="/videos/wichain.mp4"
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p className="mt-8 text-lg text-zinc-400">
+              built a secure, peer-to-peer chat with a <a href="https://www.rust-lang.org/" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">rust</a> backend, <a href="https://react.dev/" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">react + tauri</a> ui, and a custom append-only blockchain for storage.
+            </p>
+          </div>
+
+          {/* LUMA - AI Voice Assistant */}
+          <div className="group relative p-4 -m-4 rounded-xl transition-colors hover:bg-accent/5">
+            <h2 className="text-2xl font-semibold tracking-tight mb-8">
+              <a href="https://github.com/mc095/LUMA" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-white">
+                <u>ai voice assistant</u>
+              </a>
+            </h2>
+            <div className="mt-4">
+              <video
+                className="w-full aspect-video mx-auto rounded-lg shadow-lg"
+                controls
+                src="/videos/luma.mp4"
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p className="mt-8 text-lg text-zinc-400">
+              created a real-time voice assistant using <a href="https://groq.com/" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">groq llama 3.1</a> and moonshine ASR for seamless speech-to-text and text-to-speech in the terminal.
+            </p>
+          </div>
+
+
+          {/* kawaii chatbot */}
           <div className="group relative p-4 -m-4 rounded-xl transition-colors hover:bg-accent/5">
             <h2 className="text-2xl font-semibold tracking-tight mb-8">
               <a href="https://ashhealth07.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-white">
@@ -58,6 +102,7 @@ export default function Projects() {
             </p>
           </div>
 
+          {/* coding contest platform */}
           <div className="group relative p-4 -m-4 rounded-xl transition-colors hover:bg-accent/5">
             <h2 className="text-2xl font-semibold tracking-tight mb-8">
               <a href="https://github.com/mc095/contest-platform" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-white">
@@ -78,6 +123,28 @@ export default function Projects() {
             </p>
           </div>
 
+          {/* Jewellery Mart – E-Commerce Platform */}
+          <div className="group relative p-4 -m-4 rounded-xl transition-colors hover:bg-accent/5">
+            <h2 className="text-2xl font-semibold tracking-tight mb-8">
+              <a href="https://github.com/mc095/JewelleryMart" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-white">
+                <u>e - commerce platform</u>
+              </a>
+            </h2>
+            <div className="mt-4">
+              <video
+                className="w-full aspect-video mx-auto rounded-lg shadow-lg"
+                controls
+                src="/videos/jewelleryMart.mp4"
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p className="mt-8 text-lg text-zinc-400">
+              developed a full-stack jewellery e-commerce platform using <a href="https://spring.io/" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">spring boot</a> and <a href="https://react.dev/" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">react</a>, complete with authentication and an admin dashboard.
+            </p>
+          </div>
+
+          {/* job portal */}
           <div className="group relative p-4 -m-4 rounded-xl transition-colors hover:bg-accent/5">
             <h2 className="text-2xl font-semibold tracking-tight mb-8">
               <a href="https://mern-app-job-portal.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-white">
@@ -97,27 +164,8 @@ export default function Projects() {
               created a platform for streamlining job search using the <a href="https://expressjs.com" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">mern stack</a>. it engaged job seekers and fostered job searching for young talent.
             </p>
           </div>
-
-          <div className="group relative p-4 -m-4 rounded-xl transition-colors hover:bg-accent/5">
-            <h2 className="text-2xl font-semibold tracking-tight mb-8">
-              <a href="https://lmssvec8988.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-white">
-                <u>learning management system</u>
-              </a>
-            </h2>
-            <div className="mt-4">
-              <video
-                className="w-full aspect-video mx-auto rounded-lg shadow-lg"
-                controls
-                src="/videos/lms-svec.mp4"
-              >
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <p className="mt-8 text-lg text-zinc-400">
-              created a learning management system for students using <a href="https://www.djangoproject.com" target="_blank" rel="noopener noreferrer" className="text-cyan-700 underline">django</a> framework. it streamlined students learning through quick access to content.
-            </p>
-          </div>
-        </div>          <div className="mt-16 text-center">
+        </div>
+        <div className="mt-16 text-center">
           <a
             href="https://github.com/mc095"
             target="_blank"
