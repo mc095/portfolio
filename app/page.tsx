@@ -28,6 +28,15 @@ export default function Home() {
           </Link>
         </nav>
 
+        <h1 className="sr-only">
+          Ganesh Vathumilli — Rookie Engineer
+        </h1>
+
+        <p className="sr-only">
+          I&apos;m Ganesh Vathumilli, a web engineer and design enthusiast crafting clean, user-friendly digital experiences. Explore my projects, design work, and development acrivities.
+        </p>
+
+
         <h1 className="text-4xl sm:text-[2.5rem] font-semibold tracking-tight mb-8 bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
           hey, i&apos;m ganesh
         </h1>
