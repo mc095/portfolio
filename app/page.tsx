@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center p-4 sm:p-8 overflow-hidden">
       <div className="text-center relative">
+
         {/* Navigation */}
         <nav className="mb-12 flex flex-row items-center justify-center gap-6 sm:gap-8">
           <Link href="/projects" className="text-accent/90 hover:text-accent transition-colors relative group">projects</Link>
@@ -32,12 +33,39 @@ export default function Home() {
           <Link href="mailto:ganeshvathumilli@gmail.com">email</Link>
         </div>
 
-        {/* Hidden LinkedIn badge script for SEO */}
+        {/* Hidden LinkedIn badge script */}
         <script
           src="https://platform.linkedin.com/badges/js/profile.js"
           async
           defer
           type="text/javascript"
+        />
+
+        {/* Hidden GitHub link */}
+        <a
+          href="https://github.com/mc095"
+          className="sr-only"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ganesh Vathumilli GitHub Profile
+        </a>
+
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Ganesh Vathumilli",
+              "url": "https://ganeshvath.netlify.app",
+              "sameAs": [
+                "https://www.linkedin.com/in/ganesh097/",
+                "https://github.com/mc095"
+              ]
+            })
+          }}
         />
       </div>
     </main>
