@@ -6,25 +6,29 @@ import VideoBackground from "./components/VideoBackground";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {  title: "Ganesh",
-  description: "my work and experience",
+export const metadata: Metadata = {
+  title: "Ganesh Vathumilli",
+  description:
+    "Ganesh Vathumilli — web engineer and design enthusiast crafting clean, user-friendly interfaces.",
   openGraph: {
-    title: "Ganesh",
-    description: "my work and experience",
+    title: "Ganesh Vathumilli",
+    description:
+      "Ganesh Vathumilli — web engineer and design enthusiast crafting clean, user-friendly interfaces.",
     images: [
       {
-        url: 'https://ganeshvath.netlify.app/opengraph.jpg',
+        url: "https://ganeshvath.netlify.app/opengraph.jpg",
         width: 1200,
         height: 630,
-        alt: 'Portfolio Open Graph Image',
+        alt: "Portfolio Open Graph Image",
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Ganesh',
-    description: 'my work and experience',
-    images: ['https://ganeshvath.netlify.app/opengraph.jpg'],
+    card: "summary_large_image",
+    title: "Ganesh Vathumilli",
+    description:
+      "Ganesh Vathumilli — web engineer and design enthusiast crafting clean, user-friendly interfaces.",
+    images: ["https://ganeshvath.netlify.app/opengraph.jpg"],
   },
 };
 
